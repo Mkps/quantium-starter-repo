@@ -5,7 +5,7 @@ set -o pipefail
 
 source venv/bin/activate
 
-pytest -v
+pytest -v --headless
 EXIT_CODE=$?
 
 deactivate
