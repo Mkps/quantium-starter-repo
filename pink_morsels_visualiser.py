@@ -44,7 +44,7 @@ def update_graph(selected_region):
         x="date", 
         y="sales", 
         color="region",
-        title=f"Sales of Pink Morsels over time - {selected_region}",
+        title=f"Sales of Pink Morsels over time - region: {selected_region}",
         color_discrete_map=color_map
     )
     # fig = px.line(data, x="date", y="sales", color="region", title="Pink Morsel Visualiser")
