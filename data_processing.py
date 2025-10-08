@@ -13,4 +13,4 @@ for f in files:
     processed.append(df)
 
 combined = pd.concat(processed, ignore_index=True)
-combined.to_csv("data_formated.csv", index=False)
+combined.to_csv("data_formatted.csv", index=False)
